@@ -1,0 +1,23 @@
+Stage 3 – Intent Detection
+
+Input:
+User Query + Context
+
+Step 1
+Send query to LLM.
+
+Step 2
+LLM returns:
+- Intent
+- Confidence Score
+
+Step 3
+If confidence > threshold:
+      Accept intent
+
+Step 4
+If confidence < threshold:
+      Ask clarification
+
+Step 5
+Pass intent to Capability Selection
